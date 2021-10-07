@@ -1,0 +1,29 @@
+    body {
+        margin: 0;
+    }
+    
+    #container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #wrapper {
+        margin-top: 150px;
+        height: 600px;
+        width: 600px;
+        background-color: rgb(230 189 68);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #wrapper div {
+        border: 1px solid #379820;
+        width: 200px;
+        height: 200px;
+        box-sizing: border-box;
+        font-size: 100px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
